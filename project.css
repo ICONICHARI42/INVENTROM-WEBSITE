@@ -1,0 +1,173 @@
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+.navigation-bar{
+    position: static;
+    height: 100%;
+    width:100%;
+    background-color: #ffff;
+}
+.inv-logo{
+    height: 100%;
+    margin: 1% 0 1% 4%;
+    float: left;
+}
+.nav-links{
+    right: 0px;
+    top: 40px;
+    float: right;
+    position: absolute;
+    padding: 1px;
+    height: 100%;
+    margin-right: 80px;
+}
+.nav-links a{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right:20px; 
+    padding-top: 1px;
+    display: inline-block;
+    text-decoration: none;
+}
+.site-content{
+    position: absolute;
+    top: 78px;
+    width: 100%;
+}
+
+.bg-image{
+    background-image: url("/background-layer.jpg");
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.img-txt{
+    color: #ffff;
+    position: relative;
+    top: 20%;
+
+}
+
+#about{
+    position: absolute;
+    top: 840px;
+    width: 100%;
+}
+
+#about h1{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #139139;
+    font-weight:bolder;
+    text-align: center;
+}
+.first-content{
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.vision{
+    padding-top: 20px;
+    position: absolute;
+    float: left;
+    left: 180px;
+}
+.vision span,.mission span{
+    display: block;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.vision p , .mission p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.mission{
+    padding-top: 20px;
+    position: absolute;
+    float: right;
+    right: 200px;
+}
+
+#awards{
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    text-align: center;
+}
+#awards div{
+    display: inline-block;
+    padding: 20px;
+}
+#awards h1{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #139139;
+    font-weight:bolder;
+}
+#awards span{
+    display: block;
+}
+#awards p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#contact{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 1800px;
+}
+
+#contact h1{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #139139;
+    font-weight:bolder;
+    text-align: center;
+
+}
+.right-content{
+    text-align: left;
+    float: right;
+    line-height: 20px;
+    font-size: 1vw;
+    padding-right: 10px;
+}
+
+.left-content{
+    position: absolute;
+    bottom: 60px;
+    width: 30%;
+    margin-left: 90px;
+    font-size: 1vw;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: #139139;
+    position: absolute;
+    top: 750px;
+}
+
+footer h2{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+footer img{
+    position: relative;
+    bottom: 32px;
+    float: right;
+    right: 90px;
+    padding: 10px;
+ }
